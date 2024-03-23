@@ -1,3 +1,6 @@
-fish
-iterm2
-raycast
+# Ignore List
+*
+# Include List
+!nvim/
+!iterm2/
+!karabiner/assets/complex_modifications/
