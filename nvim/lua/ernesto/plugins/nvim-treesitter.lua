@@ -31,14 +31,12 @@ return {
           "yaml",
           "html",
           "css",
-          "prisma",
           "markdown",
           "markdown_inline",
-          "svelte",
-          "graphql",
           "bash",
           "lua",
           "vim",
+          "vimdoc",
           "dockerfile",
           "gitignore",
           "query",
@@ -55,7 +53,7 @@ return {
       })
 
       -- enable nvim-ts-context-commentstring plugin for commenting tsx and jsx
-      require('ts_context_commentstring').setup {}
+      require("ts_context_commentstring").setup({})
     end,
   },
 }

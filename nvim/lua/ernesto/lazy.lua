@@ -18,6 +18,7 @@ require("lazy").setup({ { import = "ernesto.plugins" }, { import = "ernesto.plug
   checker = {
     enabled = true,
     notify = false,
+    concurrency = 1,
   },
   change_detection = {
     notify = false,
