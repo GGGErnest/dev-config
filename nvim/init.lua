@@ -1,2 +1,2 @@
-require("ernesto.core")
-require("ernesto.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

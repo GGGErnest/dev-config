@@ -1,3 +1,4 @@
+-- plugins/lsp-inlayhints.lua
 -- Disable lsp-inlayhints if that is nightly version, will remove when 0.10.0 is stable
 local enabled_inlay_hints = true
 if vim.fn.has("nvim-0.10.0") == 1 then
