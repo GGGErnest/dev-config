@@ -9,7 +9,8 @@
     "lazyvim.plugins.extras.lang.tailwind",
     "lazyvim.plugins.extras.lang.tex",
     "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.linting.eslint"
+    "lazyvim.plugins.extras.linting.eslint",
+    "lazyvim.plugins.extras.ui.mini-animate"
   ],
   "news": {
     "NEWS.md": "3314"

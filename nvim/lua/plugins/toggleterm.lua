@@ -39,18 +39,11 @@ return {
         desc = "Select term",
       },
       {
-        "<leader>Tt",
-        function()
-          require("toggleterm").toggle(1, 100, LazyVim.root.get(), "tab")
-        end,
-        desc = "ToggleTerm (tab root_dir)",
-      },
-      {
         "<leader>TT",
         function()
-          require("toggleterm").toggle(1, 100, vim.loop.cwd(), "tab")
+          require("toggleterm").toggle_all()
         end,
-        desc = "ToggleTerm (tab cwd_dir)",
+        desc = "Toggle all terminals",
       },
     },
     opts = {
