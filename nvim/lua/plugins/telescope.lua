@@ -71,6 +71,17 @@ return {
           preview_cutoff = 9999,
         },
       },
+      buffers = {
+        sort_lastused = true,
+        initial_mode = "normal",
+        theme = "dropdown",
+        previewer = false,
+        mappings = {
+          n = {
+            ["d"] = require("telescope.actions").delete_buffer,
+          },
+        },
+      },
     }
     opts.extensions = {
       file_browser = {

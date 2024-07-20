@@ -62,6 +62,9 @@ return {
 
     local yanky_hydra = Hydra({
       name = "Yank ring",
+      config = {
+        invoke_on_body = true,
+      },
       mode = "n",
       heads = {
         { "p", "<Plug>(YankyPutAfter)", { desc = "After" } },
